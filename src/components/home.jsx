@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import CarsIndex from '../containers/cars_index';
+import CarsNew from '../containers/cars_new';
+import Garage from '../containers/garage';
 
 const Home = () => {
   return (
     <div className="app">
-      <div>
-        <strong>Home</strong> | <Link to="about">About</Link>
+      <div className="garage">
+        <Garage />
       </div>
       <div>
-        This is a great home.
+        <CarsIndex/>
       </div>
     </div>
   );

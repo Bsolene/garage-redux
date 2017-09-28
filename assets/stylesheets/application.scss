@@ -1,4 +1,16 @@
+@import "item";
+@import "banner";
+
 .app {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
+  display: flex;
+}
+.garage{
+  width: 30vw;
+  margin: 10px;
+}
+.car_list{
+  width: 70vw;
+  margin: 10px;
 }
